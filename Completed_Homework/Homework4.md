@@ -18,13 +18,13 @@ Output:
 
 Sure enough my secondary testnet wallet recieved 0.5 SOL
 
-![Transfer](../images/transfer.png)
+![Transfer](../Images/transfer.png)
 
 **Break Solana Game**
 
 In your teams try the [Break Solana](https://break.solana.com/wallet?cluster=devnet) game on one of the Test networks. Post a screen shot of your team's highest score on Discord.
 
-![Break Solana](../images/breaksolana.png)
+![Break Solana](../Images/breaksolana.png)
 
 **Fizz Buzz Program**
 
@@ -52,4 +52,3 @@ fn main() {
         }
     }
 }
-
