@@ -2,16 +2,13 @@ Homework 3
 
 Installing Solana Command Line Tools
 
-    sh -c "$(curl -sSfL
-https://release.solana.com/v1.18.4/install)
-"
+    sh -c "$(curl -sSfL https://release.solana.com/v1.18.4/install)"
 
 Installed!
 
-('keypair % solana --version
-solana-cli 1.18.4 (src:356c6a38; feat:3352961542, client:SolanaLabs)')
+    keypair % solana --version solana-cli 1.18.4 (src:356c6a38; feat:3352961542, client:SolanaLabs)
 
-Create a Keypair
+*Create a Keypair
 
 Instructions: ('mkdir ~/my-solana-wallet
 solana-keygen new --outfile ~/my-solanawallet/
