@@ -8,12 +8,12 @@ Using the command line tool, send your colleagues some lamports. Check your bala
 
 My input: 
 
-```solana transfer --from testnetkeypair.json 8Mj8uPjiz7NatBYVSB9sGYGzsJ4w1Hp8xfGJroiEBgM8 0.5 --allow-unfunded-recipient --url https://api.devnet.solana.com --fee-payer testnetkeypair.json
+```solana transfer --from testnetkeypair.json 8Mj8uPjiz7NatBYVSB9sGYGzsJ4w1Hp8xfGJroiEBgM8 0.5 --allow-unfunded-recipient --url https://api.devnet.solana.com --fee-payer testnetkeypair.json```
 
 
 Output:
 
-```Signature: XYqqpeHRPhjnuLMoGmTywPi81v9vRfsoyZxdQs9zBcCNgJchba9Usgiss56tH3DjbqDq73xRQJxy3GJ3jro3XoU
+```Signature: XYqqpeHRPhjnuLMoGmTywPi81v9vRfsoyZxdQs9zBcCNgJchba9Usgiss56tH3DjbqDq73xRQJxy3GJ3jro3XoU```
 
 
 Sure enough my secondary testnet wallet recieved 0.5 SOL
