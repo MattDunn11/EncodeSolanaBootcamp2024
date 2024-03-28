@@ -2,7 +2,7 @@
 
 March 28th 2024
 
-**Sending lamports**
+## Sending lamports
 
 Using the command line tool, send your colleagues some lamports. Check your balance and your colleagues balance before and after.
 
@@ -22,7 +22,7 @@ Sure enough my secondary testnet wallet recieved 0.5 SOL
 
 ![Transfer](../../Images/transfer.png)
 
-**Break Solana Game**
+## Break Solana Game
 
 In your teams try the [Break Solana](https://break.solana.com/wallet?cluster=devnet) game on one of the Test networks. Post a screen shot of your team's highest score on Discord.
 
@@ -30,7 +30,7 @@ In your teams try the [Break Solana](https://break.solana.com/wallet?cluster=dev
 
 Pretty Cool!
 
-**Fizz Buzz Program**
+## Fizz Buzz Program
 
 1. Create a project called bootcamp using Cargo
 2. The main function should print a welcome message.
