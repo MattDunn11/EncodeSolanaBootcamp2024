@@ -26,6 +26,8 @@ In your teams try the [Break Solana](https://break.solana.com/wallet?cluster=dev
 
 ![Break Solana](../Images/breaksolana.png)
 
+Pretty Cool!
+
 **Fizz Buzz Program**
 
 1. Create a project called bootcamp using Cargo
