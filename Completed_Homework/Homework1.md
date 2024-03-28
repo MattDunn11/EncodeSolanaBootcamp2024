@@ -1,6 +1,6 @@
-Homework #1 
+# Homework 1 
 
-3/25/24
+March 25th 2024
 
 Decentralized Systems
 

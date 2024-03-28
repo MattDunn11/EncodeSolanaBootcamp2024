@@ -1,6 +1,6 @@
-Homework #2
+# Homework 2
 
-3/26/24
+March 26th 2024
 
 **1. How many validators are there currently?**
 

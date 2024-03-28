@@ -1,4 +1,6 @@
-Homework 3
+# Homework 3
+
+March 27th 2024
 
 **Installing Solana Command Line Tools**
 
