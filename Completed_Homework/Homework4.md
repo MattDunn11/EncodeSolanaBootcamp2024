@@ -44,7 +44,6 @@ My code:
 `
     fn main() {
     println!("Welcome to FizzBuzz!");
-    
     for i in 1..=301 {
         match (i % 3, i % 5) {
             (0, 0) => println!("FizzBuzz"),
