@@ -39,11 +39,12 @@ In your teams try the [Break Solana](https://break.solana.com/wallet?cluster=dev
 4. If the count is divisible by 3 and 5 print "fizz buzz"
 5. At the end print the number of times "fizz buzz" occurred.
 
-My code:
+#### My Code:
 
-`
-    fn main() {
+```rust
+fn main() {
     println!("Welcome to FizzBuzz!");
+
     for i in 1..=301 {
         match (i % 3, i % 5) {
             (0, 0) => println!("FizzBuzz"),
@@ -53,5 +54,3 @@ My code:
         }
     }
 }
-
-`
