@@ -18,7 +18,7 @@ Output:
 
 Sure enough my secondary testnet wallet recieved 0.5 SOL
 
-![Transfer](../images/tramsfer.png)
+![Transfer](../images/transfer.png)
 
 **Break Solana Game**
 
