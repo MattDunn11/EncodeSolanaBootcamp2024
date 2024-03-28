@@ -11,15 +11,19 @@ Installed!
 **Create a Keypair**
 
 Instructions: 
+    
     mkdir ~/my-solana-wallet-solana-keygen new --outfile ~/my-solanawallet/my-keypair.json
 
 Actual input: 
+    
     mkdir MainTestNetWallet
 
 Actual Input: 
+    
     cd MaintestNetwallet
 
 Actual Input: 
+    
     MaintestNetwallet % solana-keygen new --outfile testnetkeypair.json
 
 
@@ -40,31 +44,40 @@ Output:
     Omitting private seed phrase
 
 **Display the result with**
+    
     solana-keygen pubkey ~/my-solana-wallet/mykeypair.json
 
 Actual Input: 
+    
     solana-keygen pubkey testnetkeypair.json
 
 Output: 
+    
     69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt
 
 
 **Verify your address**
+    
     solana-keygen verify <PUBKEY> ~/my-solanawallet/my-keypair.json
 
 Actual input: 
+    
     solana-keygen verify 69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt testnetkeypair.json
 
 Output: 
+    
     Verification for public key: 69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt: Success
 
 **Connect to the dev network**
+    
     solana config set --url https://api.devnet.solana.com
 
 Actual input: 
+    
     solana config set --url https://api.devnet.solana.com
 
 Output: 
+    
     Config File: /Users/matt/.config/solana/cli/config.yml
     RPC URL: https://api.devnet.solana.com 
     WebSocket URL: wss://api.devnet.solana.com/ (computed)
@@ -72,12 +85,15 @@ Output:
     Commitment: confirmed 
 
 **You can check the configuration with**
+    
     Solana config get
 
 Actual input: 
+    
     Solana config get
 
 Output: 
+    
     Config File: /Users/matt/.config/solana/cli/config.yml
     RPC URL: https://api.devnet.solana.com 
     WebSocket URL: wss://api.devnet.solana.com/ (computed)
@@ -85,21 +101,26 @@ Output:
     Commitment: confirmed
 
 **Get some tokens from dev net**
+    
     solana airdrop 1 <RECIPIENT_ACCOUNT_ADDRESS> --url https://api.devnet.solana.com
 
 Actual input: 
+    
     solana airdrop 1 69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt --url https://api.devnet.solana.com
 
 Output: 
+    
     Requesting airdrop of 1 SOL
     Error: airdrop request failed. This can happen when the rate limit is reached.
 
 **If at first you don't succeed, try and try again!**
 
 Actual input: 
+    
     solana airdrop 1 69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt --url https://api.devnet.solana.com
 
 Output:
+    
     Requesting airdrop of 1 SOL
 
     Signature: qCtUMbkhyfi2Zx7e4afN3ENmTLLjJrYYPd2M6UiN9zB6ctkSTvSaMx7r8ZZ3gDa8zwCHqx6ubGTmHpoyMzsgZy7
