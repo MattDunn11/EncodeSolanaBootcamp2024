@@ -2,9 +2,9 @@ Homework 3
 
 Installing Solana Command Line Tools
 
-('sh -c "$(curl -sSfL
+    sh -c "$(curl -sSfL
 https://release.solana.com/v1.18.4/install)
-"')
+"
 
 Installed!
 
@@ -37,9 +37,7 @@ Wrote new keypair to testnetkeypair.json
 =========================================================================
 pubkey: 69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt
 =========================================================================
-Save this seed phrase and your BIP39 passphrase to recover your new keypair:
-**** **** **** **** **** **** **** **** **** **** **** ****
-=========================================================================')
+Omitting private seed phrase')
 
 display the result with
 ('solana-keygen pubkey ~/my-solana-wallet/mykeypair.
