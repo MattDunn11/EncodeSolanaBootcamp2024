@@ -47,7 +47,7 @@ Actual Input:
 
 Output: 
     69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt
-    
+
 
 **Verify your address**
     solana-keygen verify <PUBKEY> ~/my-solanawallet/my-keypair.json
@@ -109,10 +109,10 @@ Output:
 Hooray!
 
 **You can also check your balance with** 
-    solana balance <ACCOUNT_ADDRESS> --url https://api.devnet.solana.com
+    '''solana balance <ACCOUNT_ADDRESS> --url https://api.devnet.solana.com'''
 
 Actual input: 
-    solana balance 69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt --url https://api.devnet.solana.com
+    '''solana balance 69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt --url https://api.devnet.solana.com'''
 
 
 Output: 
