@@ -2,7 +2,7 @@
 
 March 25th 2024
 
-Decentralized Systems
+## Decentralized Systems
 
 **1. Tell about your goals for this course?**
 

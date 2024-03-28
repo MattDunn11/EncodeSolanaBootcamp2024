@@ -2,7 +2,7 @@
 
 March 27th 2024
 
-**Installing Solana Command Line Tools**
+## Installing Solana Command Line Tools
 
     sh -c "$(curl -sSfL https://release.solana.com/v1.18.4/install)"
 
@@ -10,7 +10,7 @@ Installed!
 
     keypair % solana --version solana-cli 1.18.4 (src:356c6a38; feat:3352961542, client:SolanaLabs)
 
-**Create a Keypair**
+## Create a Keypair
 
 Instructions: 
     
@@ -45,7 +45,7 @@ Output:
     =========================================================================
     Omitting private seed phrase
 
-**Display the result with**
+## Display the result with
     
     solana-keygen pubkey ~/my-solana-wallet/mykeypair.json
 
@@ -58,7 +58,7 @@ Output:
     69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt
 
 
-**Verify your address**
+## Verify your address
     
     solana-keygen verify <PUBKEY> ~/my-solanawallet/my-keypair.json
 
@@ -70,7 +70,7 @@ Output:
     
     Verification for public key: 69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt: Success
 
-**Connect to the dev network**
+## Connect to the dev network
     
     solana config set --url https://api.devnet.solana.com
 
@@ -102,7 +102,7 @@ Output:
     Keypair Path: /Users/matt/.config/solana/id.json 
     Commitment: confirmed
 
-**Get some tokens from dev net**
+## Get some tokens from dev net
     
     solana airdrop 1 <RECIPIENT_ACCOUNT_ADDRESS> --url https://api.devnet.solana.com
 
@@ -115,7 +115,7 @@ Output:
     Requesting airdrop of 1 SOL
     Error: airdrop request failed. This can happen when the rate limit is reached.
 
-**If at first you don't succeed, try and try again!**
+## If at first you don't succeed, try and try again!
 
 Actual input: 
     
@@ -131,7 +131,7 @@ Output:
 
 Hooray!
 
-**You can also check your balance with** 
+## You can also check your balance with  
     
     solana balance <ACCOUNT_ADDRESS> --url https://api.devnet.solana.com
 
