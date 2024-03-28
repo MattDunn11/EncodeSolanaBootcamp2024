@@ -6,6 +6,8 @@ March 28th 2024
 
 Using the command line tool, send your colleagues some lamports. Check your balance and your colleagues balance before and after.
 
+I did not have a colleague's public key readily available so I decided to transfer SOL to my secondary testnet keypair.
+
 My input: 
 
 ```solana transfer --from testnetkeypair.json 8Mj8uPjiz7NatBYVSB9sGYGzsJ4w1Hp8xfGJroiEBgM8 0.5 --allow-unfunded-recipient --url https://api.devnet.solana.com --fee-payer testnetkeypair.json```
