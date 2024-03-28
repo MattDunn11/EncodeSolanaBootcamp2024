@@ -40,14 +40,14 @@ Output:
     Omitting private seed phrase
 
 **Display the result with**
-    solana-keygen pubkey ~/my-solana-wallet/mykeypair.
-json
+    solana-keygen pubkey ~/my-solana-wallet/mykeypair.json
 
 Actual Input: 
     solana-keygen pubkey testnetkeypair.json
 
 Output: 
     69LmXrZWBKUvsdYAjowZ5yhtJm2QzLrJeXvsbDeN5Qpt
+    
 
 **Verify your address**
     solana-keygen verify <PUBKEY> ~/my-solanawallet/my-keypair.json
