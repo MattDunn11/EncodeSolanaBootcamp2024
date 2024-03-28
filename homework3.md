@@ -109,6 +109,7 @@ Output:
 Hooray!
 
 **You can also check your balance with** 
+    
     'solana balance <ACCOUNT_ADDRESS> --url https://api.devnet.solana.com'
 
 Actual input: 
