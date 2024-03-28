@@ -20,13 +20,13 @@ Signature: XYqqpeHRPhjnuLMoGmTywPi81v9vRfsoyZxdQs9zBcCNgJchba9Usgiss56tH3DjbqDq7
 
 Sure enough my secondary testnet wallet recieved 0.5 SOL
 
-![Transfer](../images/tramsfer.png)
+![Transfer](./images/tramsfer.png)
 
 **Break Solana Game**
 
 In your teams try the [Break Solana](https://break.solana.com/wallet?cluster=devnet) game on one of the Test networks. Post a screen shot of your team's highest score on Discord.
 
-![Break Solana](../images/breaksolana.png)
+![Break Solana](./images/breaksolana.png)
 
 **Fizz Buzz Program**
 
@@ -42,7 +42,7 @@ In your teams try the [Break Solana](https://break.solana.com/wallet?cluster=dev
 My code:
 
 `
-fn main() {
+    fn main() {
     println!("Welcome to FizzBuzz!");
     
     for i in 1..=301 {
