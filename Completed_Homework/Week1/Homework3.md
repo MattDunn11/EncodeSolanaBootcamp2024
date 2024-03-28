@@ -115,7 +115,7 @@ Output:
     Requesting airdrop of 1 SOL
     Error: airdrop request failed. This can happen when the rate limit is reached.
 
-## If at first you don't succeed, try and try again!
+**If at first you don't succeed, try and try again!**
 
 Actual input: 
     
