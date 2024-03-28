@@ -61,7 +61,7 @@ fn main() {
 Output:
 ```
 % cargo run 
-   Compiling fizzbuzz v0.1.0 (/Users/matt/Library/Mobile Documents/com~apple~CloudDocs/Dev/Projects/fizzbuzz)
+   Compiling fizzbuzz v0.1.0 (/Users/Dev/Projects/fizzbuzz)
     Finished dev [unoptimized + debuginfo] target(s) in 0.16s
      Running `target/debug/fizzbuzz`
 Welcome to FizzBuzz!
