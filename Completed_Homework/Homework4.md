@@ -28,7 +28,7 @@ In your teams try the [Break Solana](https://break.solana.com/wallet?cluster=dev
 
 ![Break Solana](./images/breaksolana.png)
 
-**Fizz Buzz Program**
+###Fizz Buzz Program
 
 1. Create a project called bootcamp using Cargo
 2. The main function should print a welcome message.
