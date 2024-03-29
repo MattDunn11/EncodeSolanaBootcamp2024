@@ -41,7 +41,9 @@ Pretty Cool!
 4. If the count is divisible by 3 and 5 print "fizz buzz"
 5. At the end print the number of times "fizz buzz" occurred.
 
-#### My Code:
+Using a For Loop inside main to iterate over the range of numbers from 1 through 301 with the variable 'i' we then use the Match Expression to determine if each number is divisible by 3 and 5. If the remainder is 0 for each check it will print Fizz for being divisible by 3 and buzz when divisible by 5. The remainder of 0 is what determins whether to print Fizz, Buzz or Fizz Buzz.
+
+#### Code:
 
 ```rust
 fn main() {
