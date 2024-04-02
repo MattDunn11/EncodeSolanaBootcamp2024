@@ -1,5 +1,5 @@
 
-In addition to let, there are several other common keywords in Rust that you should be familiar with as a Rust developer. These keywords play important roles in defining the structure and behavior of Rust code. Here are some of the most commonly used ones:
+There are several other common keywords in Rust that you should be familiar with as a Rust developer. These keywords play important roles in defining the structure and behavior of Rust code. Here are some of the most commonly used ones:
 
 fn: Used to declare a function.
 ```
