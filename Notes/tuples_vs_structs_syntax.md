@@ -25,16 +25,18 @@ enum MyEnum {
     VariantB(String),
     // ...
 }
+
 ```
 
 Struct Syntax:
 
 ```rust
-Copy code```
+
 enum MyEnum {
     VariantA { x: i32, y: f64 },
     VariantB { s: String },
     // ...
 }
+
 ```
 In summary, tuple syntax is more concise and useful for simple variants with a fixed number of fields, while struct syntax offers more flexibility and readability, especially for variants with multiple named fields. The choice between them depends on the complexity and requirements of your data structures.
