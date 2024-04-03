@@ -19,7 +19,7 @@ Here's a visual comparison:
 
 Tuple Syntax:
 
-```
+```rust
 enum MyEnum {
     VariantA(i32, f64),
     VariantB(String),
