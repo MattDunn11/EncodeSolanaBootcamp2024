@@ -1,4 +1,4 @@
-# Header Lesson Replays
+# Lesson Replays
 
 ## Week 1
 
