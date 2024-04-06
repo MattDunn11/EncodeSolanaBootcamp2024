@@ -31,10 +31,10 @@ Minting 10000 tokens
 
 Signature: 2jsRyhjpDDfAFLzgA73MBerojpytNSKc43T4Fq9Q3M1VxeSYtqc8hrw7bLG1PZQ88JCkpUNP638qm9sRURMotqZr
 
-matt@Matts-Mac-Studio ~ % spl-token supply 4SF6t8tj2ifePTCbWWJWnvT4gM9oBfFfm5FRiwodFV7p
+% spl-token supply 4SF6t8tj2ifePTCbWWJWnvT4gM9oBfFfm5FRiwodFV7p
 10000
 
-matt@Matts-Mac-Studio ~ % spl-token accounts 4SF6t8tj2ifePTCbWWJWnvT4gM9oBfFfm5FRiwodFV7p
+% spl-token accounts 4SF6t8tj2ifePTCbWWJWnvT4gM9oBfFfm5FRiwodFV7p
 Balance
 -------
 10000
