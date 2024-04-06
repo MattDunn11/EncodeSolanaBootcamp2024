@@ -1,0 +1,25 @@
+{
+  "name": "PikaPimp",
+  "symbol": "PIKAP",
+  "uri": "https://github.com/Lordshrrred/EncodeSolanaBootcamp2024/blob/main/Tokens/pikap.jpeg?raw=true",
+  "seller_fee_basis_points": 500,
+  "fee_recipient": "FUufJrZsAySQT5TBi3CK2DsZ7Ym2cmoUYPEUGMdQfHj9",
+  "seller_fee_collection_address": "FUufJrZsAySQT5TBi3CK2DsZ7Ym2cmoUYPEUGMdQfHj9",
+  "image": "https://github.com/Lordshrrred/EncodeSolanaBootcamp2024/blob/main/Tokens/pikap.jpeg?raw=true",
+  "seller_fee_burn_address": null,
+  "properties": {
+    "files": [
+      {
+        "uri": "https://github.com/Lordshrrred/EncodeSolanaBootcamp2024/blob/main/Tokens/pikap.jpeg?raw=true",
+        "type": "PIKAAA PIIIIIMP!!!"
+      }
+    ],
+    "category": "digital",
+    "creators": [
+      {
+        "address": "FUufJrZsAySQT5TBi3CK2DsZ7Ym2cmoUYPEUGMdQfHj9",
+        "share": 100
+      }
+    ]
+  }
+}
