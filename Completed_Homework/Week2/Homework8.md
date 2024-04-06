@@ -1,14 +1,14 @@
 # Homework 8
 
-### Solana Tokens
+## Solana Tokens
 
-### 1. Follow the instructions from the lesson and use the spl-token-cli to create
+#### 1. Follow the instructions from the lesson and use the spl-token-cli to create
 #### a) A fungible token with a supply of 10,000
 #### b) An NFT
 
-# 2. Try sending these tokens to others in your team , and use the command line to find details about the tokens.
+#### 2. Try sending these tokens to others in your team , and use the command line to find details about the tokens.
 
-# 3. Try sending using both the transfer and transfer --fund-recipient approach.
+#### 3. Try sending using both the transfer and transfer --fund-recipient approach.
 
 ```
 % spl-token create-token
@@ -65,12 +65,12 @@ Decimals:  0
 
 Signature: ruboYkmpeiC5hDJ9YEBcWHVTq2Gb5aRXUQ4JyBbwHgyCVMjNGTeBs4h9RgqFLLHpkgfioZFkL23nXNvS7Dyqxk8
 
-matt@Matts-Mac-Studio ~ % spl-token create-account xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD
+% spl-token create-account xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD
 Creating account EZXzCnfdMAG6ofigTm7uK7BDGSpx1JDwQaQyQZzjvA1Z
 
 Signature: b1jgQgS5LhgZQSGNTQrXNePZBBv6fyq3ehEXK51gfszJyN1WnYrqjfyH4C5X6gHPTmy8MqqsfviaYfmaDYzcTww
 
-matt@Matts-Mac-Studio ~ % spl-token mint xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD 1 EZXzCnfdMAG6ofigTm7uK7BDGSpx1JDwQaQyQZzjvA1Z
+% spl-token mint xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD 1 EZXzCnfdMAG6ofigTm7uK7BDGSpx1JDwQaQyQZzjvA1Z
 Minting 1 tokens
   Token: xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD
   Recipient: EZXzCnfdMAG6ofigTm7uK7BDGSpx1JDwQaQyQZzjvA1Z
@@ -84,7 +84,7 @@ Updating xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD
 
 Signature: 5o5R6Hou3HSBWeqFZSpcyrErTtJ7j3tpBQkg4Js57EXy84SRQC3rWvHtMrx1HJGhUgYtgVtvPnFg1yjmDv9pYpVD
 
-matt@Matts-Mac-Studio ~ % spl-token account-info xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD
+% spl-token account-info xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD
 
 SPL Token Account
   Address: EZXzCnfdMAG6ofigTm7uK7BDGSpx1JDwQaQyQZzjvA1Z
