@@ -1,6 +1,6 @@
 # Homework 8
 
-## Solana Tokens
+## Part 1 : Solana Tokens
 
 #### 1. Follow the instructions from the lesson and use the spl-token-cli to create
 #### a) A fungible token with a supply of 10,000
@@ -99,7 +99,70 @@ SPL Token Account
 
   % spl-token supply xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD
 1
+
+% spl-token transfer --fund-recipient xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD 1 24CFvjS6FE3LxZyKNVhGxXXV6N2zp2TWwP4eQ3ktV4XM
+Transfer 1 tokens
+  Sender: EZXzCnfdMAG6ofigTm7uK7BDGSpx1JDwQaQyQZzjvA1Z
+  Recipient: 24CFvjS6FE3LxZyKNVhGxXXV6N2zp2TWwP4eQ3ktV4XM
+  Recipient associated token account: 6aJ2W7GkixZQjX4gRReE5Fy1u3TywdJsTjq6UMCs9DY2
+  Funding recipient: 6aJ2W7GkixZQjX4gRReE5Fy1u3TywdJsTjq6UMCs9DY2
+
+Signature: 4ENTxaPev8e2R9LB5k2yvzuWmVEbcs69zNZgAxVcLU9nqPnan3RhsPoRhReQckF16BwmzqGErauMu4CMvJN74dZ4
 ```
 
 
+## Part 1 : Solana Programs
 
+#### Using the examples in the [repo](https://github.com/ExtropyIO/SolanaBootcamp/tree/main/examples_baremetal)
+#### 1. Modify the existing msg! in example1-helloworld to log the program ID.
+#### 2. Retrieve the total program size ofexample1-helloworld.
+#### 3. Retrieve the lamport balance of example2-counter.
+#### 4. Modify the client for example2-counter to feed an incorrect address for the greeting
+
+### Example 1
+
+#### Original code for lib.rs
+```
+use solana_program::{
+    account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg, pubkey::Pubkey,
+};
+
+// Declare and export the program's entrypoint
+entrypoint!(process_instruction);
+
+// Program entrypoint's implementation
+pub fn process_instruction(
+    _program_id: &Pubkey, // Public key of the account the hello world program was loaded into
+    _accounts: &[AccountInfo], // accounts to not interact with (this time)
+    _instruction_data: &[u8], // Ignored, all helloworld instructions are hellos
+) -> ProgramResult {
+    msg!("[lib] Hello World Rust program entrypoint");
+
+    Ok(())
+}
+```
+
+#### Modify the existing msg! in example1-helloworld to log the program ID.
+
+#### New code with changes:
+```
+use solana_program::{
+    account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg, pubkey::Pubkey,
+};
+
+// Declare and export the program's entrypoint
+entrypoint!(process_instruction);
+
+// Program entrypoint's implementation
+pub fn process_instruction(
+     program_id: &Pubkey, // Public key of the account the hello world program was loaded into
+    _accounts: &[AccountInfo], // accounts to not interact with (this time)
+    _instruction_data: &[u8], // Ignored, all helloworld instructions are hellos
+) -> ProgramResult {
+    msg!("[lib] Program ID: {:?}", program_id);
+    msg!("[lib] Hello World Rust program entrypoint");
+
+    Ok(())
+}
+```
+### 
