@@ -4,9 +4,8 @@
 
 1. Follow the instructions from the lesson and use the spl-token-cli to create
 
- b) An NFT
-
- 3. Try sending using both the transfer and transfer --fund-recipient approach.
+b) An NFT
+3. Try sending using both the transfer and transfer --fund-recipient approach.
 
 ```
 % spl-token create-token
