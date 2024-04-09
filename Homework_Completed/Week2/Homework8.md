@@ -2,13 +2,11 @@
 
 ## Part 1 : Solana Tokens
 
-#### 1. Follow the instructions from the lesson and use the spl-token-cli to create
+1. Follow the instructions from the lesson and use the spl-token-cli to create
 
-#### b) An NFT
+ b) An NFT
 
-
-
-#### 3. Try sending using both the transfer and transfer --fund-recipient approach.
+ 3. Try sending using both the transfer and transfer --fund-recipient approach.
 
 ```
 % spl-token create-token
@@ -24,7 +22,7 @@ Creating account 1uS7ii6HZyvV1uhqG7WahL2KAKR4KTAMH6V5Vy626g8
 
 Signature: 632nYXGXrLtEkwKsEfFUAkMYJkQ2tgCL6NuMAP55sk8Xq8WEskjeorXETZ6eZv4MYyiPxP2mwPczBQourJqmsTqr
 ```
-#### a) A fungible token with a supply of 10,000
+a) A fungible token with a supply of 10,000
 ```
 
 % spl-token mint 4SF6t8tj2ifePTCbWWJWnvT4gM9oBfFfm5FRiwodFV7p 10000
@@ -58,7 +56,7 @@ Transfer 500 tokens
 
 Signature: 5KY8YuLVb7nh3peCufCS6sHcg2U4f562EJ5kVRfzZd9wpi3DoqCabFcefyjxeTDUf9w4PNNaYkwYXM5qVa5ScGvf
 ```
-#### 1) b.) An NFT
+1) b.) An NFT
 ```
 % spl-token create-token --decimals 0
 Creating token xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD under program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
@@ -103,7 +101,7 @@ SPL Token Account
   % spl-token supply xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD
 1
 ```
-#### 2. Try sending these tokens to others in your team , and use the command line to find details about the tokens.
+2. Try sending these tokens to others in your team , and use the command line to find details about the tokens.
 ```
 % spl-token transfer --allow-unfunded-recipient --fund-recipient D3fmx270NNjiv62Nwarx5HnvZ4Cm8aPGrcCdcXtAVZ7t 500 24CFvjS6FE3LxZyKNVhGxXXV6N2zp2TWwP4eQ3ktV4X™
 Transfer 500 tokens
@@ -114,7 +112,7 @@ Funding recipient: G11XDFafAkZWP8mjfCKtTB9GFNFQ35zhFpfce91btvsN
 Signature: 4TKFcruBkA8Y9V3wxoYTXBdNHEM9v3916CCeWPcuyt7CzqAqEZ4Vnmp2pEDUndfs1TsoAkBJwPZQe7mE2pWrdFv
 ```
 
-#### 3. Try sending using both the transfer and transfer --fund-recipient approach.
+3. Try sending using both the transfer and transfer --fund-recipient approach.
 ```
 % spl-token transfer --fund-recipient xUbEksCfkEjTN85Jm6aeQPhWUA3Sap9qpEdkdZ3GUHD 1 24CFvjS6FE3LxZyKNVhGxXXV6N2zp2TWwP4eQ3ktV4XM
 Transfer 1 tokens
@@ -129,15 +127,15 @@ Signature: 4ENTxaPev8e2R9LB5k2yvzuWmVEbcs69zNZgAxVcLU9nqPnan3RhsPoRhReQckF16Bwmz
 
 ## Part 2 : Solana Programs
 
-#### Using the examples in the [repo](https://github.com/ExtropyIO/SolanaBootcamp/tree/main/examples_baremetal)
-#### 1. Modify the existing msg! in example1-helloworld to log the program ID.
-#### 2. Retrieve the total program size ofexample1-helloworld.
-#### 3. Retrieve the lamport balance of example2-counter.
-#### 4. Modify the client for example2-counter to feed an incorrect address for the greeting
+Using the examples in the [repo](https://github.com/ExtropyIO/SolanaBootcamp/tree/main/examples_baremetal)
+ 1. Modify the existing msg! in example1-helloworld to log the program ID.
+ 2. Retrieve the total program size ofexample1-helloworld.
+ 3. Retrieve the lamport balance of example2-counter.
+ 4. Modify the client for example2-counter to feed an incorrect address for the greeting
 
 ### Example 1
 
-#### Original code for lib.rs
+Original code for lib.rs
 ```
 use solana_program::{
     account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg, pubkey::Pubkey,
@@ -158,9 +156,9 @@ pub fn process_instruction(
 }
 ```
 
-#### 1. Modify the existing msg! in example1-helloworld to log the program ID.
+ 1. Modify the existing msg! in example1-helloworld to log the program ID.
 
-#### New code with changes:
+ New code with changes:
 ```
 use solana_program::{
     account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg, pubkey::Pubkey,
@@ -181,7 +179,7 @@ pub fn process_instruction(
     Ok(())
 }
 ```
-#### 1. log program ID
+ 1. log program ID
 
 ```
 % npm run deploy:1
@@ -191,7 +189,7 @@ pub fn process_instruction(
 
 Program Id: H5JucxoKLSrRvpDVBg2CtLYU6zoPuMNdMpYSfNoBrRiy
 ```
-#### 2. Retrieve the total program size ofexample1-helloworld.
+ 2. Retrieve the total program size ofexample1-helloworld.
 
 ```
  % solana program show H5JucxoKLSrRvpDVBg2CtLYU6zoPuMNdMpYSfNoBrRiy
@@ -206,7 +204,7 @@ Balance: 0.55399512 SOL
 ```
 ### Example 2
 
-#### 3. Retrieve the lamport balance of example2-counter.
+ 3. Retrieve the lamport balance of example2-counter.
 
 First: "npm run deploy:2" to aqcuire program ID/pubkey.
 ```
@@ -222,7 +220,7 @@ Second, "solana balance 9EnL8XNXcfrQ1vbzVC3fWvE3vFLrQJ4xGE2cjzBvmUy4"
  % solana balance 9EnL8XNXcfrQ1vbzVC3fWvE3vFLrQJ4xGE2cjzBvmUy4
 0.00114144 SOL
 ```
-#### 4. Modify the client for example2-counter to feed an incorrect address for the greeting
+ 4. Modify the client for example2-counter to feed an incorrect address for the greeting
 
 In main.ts in order to feed an incorrect greeting a constant was added for the variable INCORRECT_ADDRESS where a random publick key is generated using the 'Publickey.default' and then it gets converted to a string with the 'toString()' method. Th estrinf rabdomly generates a public key which then becomes used as the incorrect address'
 
