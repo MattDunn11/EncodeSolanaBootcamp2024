@@ -14,13 +14,9 @@ confirm the transaction.
 
 #### 2. Investigating Dapp Scaffold
 
-You need to install a wallet plugin in your browser, such as phantom
-Follow the installation instructions in the notes.
-
 Try following the functionality it provides:
 
-1. Make sure your wallet is connected to the
-dev network
+1. Make sure your wallet is connected to the dev network
 
 2. Try the airdrop to give yourself some SOL
 
