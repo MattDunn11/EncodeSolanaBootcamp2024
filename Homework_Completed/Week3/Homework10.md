@@ -1,6 +1,6 @@
 # Homework 10
 
-## 1. Try a simple client transaction in Solana playground [https://beta.solpg.io/](https://beta.solpg.io/)
+#### 1. Try a simple client transaction in Solana playground [https://beta.solpg.io/](https://beta.solpg.io/)
 
 1. Make sure you are connected to the devnet and you have a wallet set up
 
@@ -12,7 +12,7 @@ pg.connection.requestAirdrop you will need to add your public key and the number
 4. Use await pg.connection.confirmTransaction; to
 confirm the transaction.
 
-## 2. Investigating Dapp Scaffold
+#### 2. Investigating Dapp Scaffold
 
 You need to install a wallet plugin in your browser, such as phantom
 Follow the installation instructions in the notes.
