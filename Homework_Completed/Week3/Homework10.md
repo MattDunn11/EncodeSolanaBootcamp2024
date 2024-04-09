@@ -43,7 +43,7 @@ $
 Successfully airdropped 1000000 Lamports.
 
 Supporting Code:
-```
+```typescript
 import { Connection, Account, PublicKey } from '@solana/web3.js';
 
 // Initialize Solana connection
@@ -88,7 +88,7 @@ $
     Airdrop confirmed successfully!
 ```
 Supporting Code:
-```
+```typescript
 import { Connection, Account, PublicKey } from '@solana/web3.js';
 
 // Initialize Solana connection
