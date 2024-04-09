@@ -27,7 +27,7 @@ https://youtu.be/-nhcIL5Nu_s
 ## Week 3
 
 ### Week 3 - Class 1
-
+https://youtu.be/xhH0WwgIvM8
 ### Week 3 - Class 2
 
 ### Week 3 - Class 3
