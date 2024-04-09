@@ -4,7 +4,7 @@
 
 1. Follow the instructions from the lesson and use the spl-token-cli to create
 
-b) An NFT
+ b) An NFT
 3. Try sending using both the transfer and transfer --fund-recipient approach.
 
 ```
@@ -21,7 +21,7 @@ Creating account 1uS7ii6HZyvV1uhqG7WahL2KAKR4KTAMH6V5Vy626g8
 
 Signature: 632nYXGXrLtEkwKsEfFUAkMYJkQ2tgCL6NuMAP55sk8Xq8WEskjeorXETZ6eZv4MYyiPxP2mwPczBQourJqmsTqr
 ```
-a) A fungible token with a supply of 10,000
+ a) A fungible token with a supply of 10,000
 ```
 
 % spl-token mint 4SF6t8tj2ifePTCbWWJWnvT4gM9oBfFfm5FRiwodFV7p 10000
