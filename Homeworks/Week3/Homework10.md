@@ -125,15 +125,17 @@ connection.requestAirdrop(publicKey, lamports).then(async (signature) => {
 Try following the functionality it provides:
 
 1. Make sure your wallet is connected to the dev network
+
 ![Connected](../../Images/Conn_dev.png)
+
 2. Try the airdrop to give yourself some SOL
 
 Success!
 ![Airdrop](../../Images/Airdrop.png)
 3. Try to sign a message
-![signmessage](../../signmessage.png)
+![signmessage](../../Images/signmessage.png)
 Success!
-![signmessage2](../../signmessage2.png)
+![signmessage2](../../Images/signmessage2.png)
 Try altering the code to send a transaction to a hardcoded address such as 5xot9PVkphiX2adznghwrAuxGs2zeWisNSxMW6hU6Hkj
 
 Within src/components/SendTransaction.tsx located the code that was generating an address to send transaction to:
@@ -172,8 +174,12 @@ const instructions = [
 ];
 ```
 Send Transaction:
+
 ![SendTX](../../Images/SendTX.png)
+
 ![SendTX2](../../Images/SendTX2.png)
+
 5. Look for the transactions on the devnet blockchain explorer.
 https://explorer.solana.com/tx/3mQ4VQ64fvbgek6GnNhncdHw8WhL47VmXKGm78XSUBhAZZ7NTwbZg3k7Rf3fUu5SVhjYBZ7KGwHRi2NJcV1GUDpD?cluster=devnet
+
 ![SendTX3](../../Images/SendTX3.png)
