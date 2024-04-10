@@ -181,11 +181,11 @@ const instructions = [
 ```
 Send Transaction:
 
-![SendTX](../../Images/SendTX.png)
+![SendTX](../../Images/SendTx.png)
 
-![SendTX2](../../Images/SendTX2.png)
+![SendTX2](../../Images/SendTx2.png)
 
 5. Look for the transactions on the devnet blockchain explorer.
 https://explorer.solana.com/tx/3mQ4VQ64fvbgek6GnNhncdHw8WhL47VmXKGm78XSUBhAZZ7NTwbZg3k7Rf3fUu5SVhjYBZ7KGwHRi2NJcV1GUDpD?cluster=devnet
 
-![SendTX3](../../Images/SendTX3.png)
+![SendTX3](../../Images/SendTx3.png)
