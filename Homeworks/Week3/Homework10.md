@@ -128,10 +128,52 @@ Try following the functionality it provides:
 ![Connected](../../Images/Conn_dev.png)
 2. Try the airdrop to give yourself some SOL
 
-Devnet is acting up today so this will have to do:
+Success!
 ![Airdrop](../../Images/Airdrop.png)
 3. Try to sign a message
+![signmessage](../../signmessage.png)
+Success!
+![signmessage2](../../signmessage2.png)
+Try altering the code to send a transaction to a hardcoded address such as 5xot9PVkphiX2adznghwrAuxGs2zeWisNSxMW6hU6Hkj
 
-Try altering the code to send a transaction to
-send to a hardcoded address
+Within src/components/SendTransaction.tsx located the code that was generating an address to send transaction to:
+```typescript
+ const instructions = [
+                SystemProgram.transfer({
+                    fromPubkey: publicKey,
+                    toPubkey: Keypair.generate().publicKey,
+                    lamports: 1_000_000,
+                }),
+            ];
+```
 
+Removed the following code:
+```typescript
+toPubkey: Keypair.generate().publicKey,
+```
+Replaced it with:
+```typescript
+toPubkey: recipientPublicKeyString,
+```
+and added:
+```typescript
+const recipientPublicKeyString = '5xot9PVkphiX2adznghwrAuxGs2zeWisNSxMW6hU6Hkj';
+```
+Resulting in:
+```typescript
+const recipientPublicKeyString = '5xot9PVkphiX2adznghwrAuxGs2zeWisNSxMW6hU6Hkj';
+
+const instructions = [
+    SystemProgram.transfer({
+        fromPubkey: publicKey,
+        toPubkey: recipientPublicKeyString, // Use the hardcoded address here
+        lamports: 1_000_000,
+    }),
+];
+```
+Send Transaction:
+![SendTX](../../Images/SendTX.png)
+![SendTX2](../../Images/SendTX2.png)
+5. Look for the transactions on the devnet blockchain explorer.
+https://explorer.solana.com/tx/3mQ4VQ64fvbgek6GnNhncdHw8WhL47VmXKGm78XSUBhAZZ7NTwbZg3k7Rf3fUu5SVhjYBZ7KGwHRi2NJcV1GUDpD?cluster=devnet
+![SendTX3](../../Images/SendTX3.png)
