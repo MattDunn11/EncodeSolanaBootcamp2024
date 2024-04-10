@@ -131,11 +131,17 @@ Try following the functionality it provides:
 2. Try the airdrop to give yourself some SOL
 
 Success!
+
 ![Airdrop](../../Images/Airdrop.png)
+
 3. Try to sign a message
+
 ![signmessage](../../Images/signmessage.png)
+
 Success!
+
 ![signmessage2](../../Images/signmessage2.png)
+
 Try altering the code to send a transaction to a hardcoded address such as 5xot9PVkphiX2adznghwrAuxGs2zeWisNSxMW6hU6Hkj
 
 Within src/components/SendTransaction.tsx located the code that was generating an address to send transaction to:
