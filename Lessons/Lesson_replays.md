@@ -31,7 +31,7 @@ https://youtu.be/xhH0WwgIvM8
 ### Week 3 - Class 2
 https://youtu.be/HkNf3GEFkXI
 ### Week 3 - Class 3
-
+https://youtu.be/3sULHpdYo_4
 ### Week 3 - Class 4
 
 
