@@ -1,6 +1,6 @@
 let’s go through the operators in Rust and explain each one:
 
-Arithmetic Operators:
+#### Arithmetic Operators:
 
 +: Adds two numbers together.
 
@@ -12,20 +12,26 @@ Arithmetic Operators:
 
 %: Finds the remainder of the division of the first number by the second.
 
-Comparison Operators:
+#### Comparison Operators:
+
 ==: Checks if two values are equal.
+
 !=: Checks if two values are not equal.
+
 >: Checks if the value on the left is greater than the one on the right.
+
 <: Checks if the value on the left is less than the one on the right.
+
 >=: Checks if the value on the left is greater than or equal to the one on the right.
+
 <=: Checks if the value on the left is less than or equal to the one on the right.
 
-Logical Operators:
+#### Logical Operators:
 &&: Returns true if both operands are true, otherwise returns false.
 ||: Returns true if at least one of the operands is true.
 !: Returns true if the operand is false and vice versa.
 
-Bitwise Operators:
+#### Bitwise Operators:
 &: Performs a bitwise AND operation.
 |: Performs a bitwise OR operation.
 ^: Performs a bitwise XOR operation.
@@ -33,7 +39,7 @@ Bitwise Operators:
 >>: Shifts the bits of the first operand to the right by the number specified by the second operand.
 !: Performs a bitwise NOT operation (it’s usually ~ in other languages).
 
-Compound Assignment Operators:
+#### Compound Assignment Operators:
 +=: Adds the right operand to the left operand and assigns the result to the left operand.
 -=: Subtracts the right operand from the left operand and assigns the result to the left operand.
 *=: Multiplies the left operand by the right operand and assigns the result to the left operand.
@@ -45,7 +51,7 @@ Compound Assignment Operators:
 <<=: Applies left shift and assigns the result to the left operand.
 >>=: Applies right shift and assigns the result to the left operand.
 
-Other Operators:
+#### Other Operators:
 =: Assigns the value of the right operand to the left operand.
 .: Accesses a member of a struct or an enum.
 ->: Used in function signatures to indicate the return type.
