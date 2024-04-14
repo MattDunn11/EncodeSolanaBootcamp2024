@@ -1,10 +1,15 @@
 let’s go through the operators in Rust and explain each one:
 
 Arithmetic Operators:
+
 +: Adds two numbers together.
+
 -: Subtracts the second number from the first.
+
 *: Multiplies two numbers.
+
 /: Divides the first number by the second.
+
 %: Finds the remainder of the division of the first number by the second.
 
 Comparison Operators:
