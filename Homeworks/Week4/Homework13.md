@@ -17,6 +17,8 @@ A: Yes and No, Yes if it recovers the stolen funds as that is far less expensive
 
 2. Look through the example code in the repo, can you find any potential issues ? Think particularly about the flow of the lottery game.
 
+A: No Signer check in tge withdraw function.
+
 3. Install the Neodyme workshop and watch the video explaining the first vulnerability.
 
-A: Unable to with Apple Silicon, following through the guide as an alternative.
+A: Done
