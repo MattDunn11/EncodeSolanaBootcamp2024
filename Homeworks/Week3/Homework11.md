@@ -116,10 +116,3 @@ describe('storage', async () => {
 });
 ```
 
-Lottery Program
-
-From the Bootcamp repo, [anchor examples](https://github.com/ExtropyIO/SolanaBootcamp/tree/main/examples_anchor)
-
-1. Modify the lottery program so that the payout is only 90% of the total deposits.
-
-2. Add a function that allows lottery admin to withdraw funds after the winner is picked.
