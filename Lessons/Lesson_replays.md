@@ -43,8 +43,10 @@ https://youtu.be/nfwm5n9Q0z4
 ### Week 4 - Class 1
 https://youtu.be/QurngaBjmMI
 ### Week 4 - Class 2
+https://www.youtube.com/watch?v=p_JbyYybkY4
 
 ### Week 4 - Class 3
+https://youtu.be/dPK4K4zhqhs
 
 ### Week 4 - Class 4
 
@@ -78,11 +80,11 @@ https://youtu.be/QurngaBjmMI
 ### Course Review
 
 #### Lesson 1
-Decentralised Systems
-Blockchain theory
-Cryptography
-Solana Architecture
-Consensus
+*Decentralised Systems
+*Blockchain theory
+*Cryptography
+*Solana Architecture
+*Consensus
 
 #### Lesson 2
 Solana Components and History
