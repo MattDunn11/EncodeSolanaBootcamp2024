@@ -79,7 +79,7 @@ https://youtu.be/dPK4K4zhqhs
 
 ### Course Review
 
-<span style="color:#dc1fff">#### Lesson 1</span>
+<span style="color:#dc1fff">Lesson 1</span>
 * Decentralised Systems
 * Blockchain theory
 * Cryptography
