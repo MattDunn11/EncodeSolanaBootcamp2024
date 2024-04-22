@@ -87,89 +87,89 @@ https://youtu.be/dPK4K4zhqhs
 * Consensus
 
 #### Lesson 2
-Solana Components and History
-Solana Community
-Introduction to Rust
+* Solana Components and History
+* Solana Community
+* Introduction to Rust
 
 #### Lesson 3
-Solana Command Line
-Rust
+* Solana Command Line
+* Rust
 
 #### Lesson 4
-Rust
-Solana Devlopment
+* Rust
+* Solana Devlopment
 
 #### Lesson 5
-Solana Accounts
-Programming Model
-Development Tools
+* Solana Accounts
+* Programming Model
+* Development Tools
 
 Lesson 6
-Rust Lifetimes
-DeFi Introduction
-DeFi on Solana
-Tokens on Solana
+* Rust Lifetimes
+* DeFi Introduction
+* DeFi on Solana
+* Tokens on Solana
 
 #### #### Lesson 7
-Solana Programs continued
-PDAs
+* Solana Programs continued
+* PDAs
 
 #### Lesson 8
-Authority and Ownership
-Upgrading Programs
-Program Flow
-PDAs in practice
+* Authority and Ownership
+* Upgrading Programs
+* Program Flow
+* PDAs in practice
 
 #### Lesson 9
-Interface Definition Language
-Cross Program Invocation (CPI)
-Anchor Introduction
+* Interface Definition Language
+* Cross Program Invocation (CPI)
+* Anchor Introduction
 
 #### Lesson 10
-Web3 Libraries
+* Web3 Libraries
 
 #### Lesson 11
-Solana Program Library
-Blockchain governance
-Solana Pay
+* Solana Program Library
+* Blockchain governance
+* Solana Pay
 
 #### Lesson 12
-Anchor review
-NFTs introduction
-Inscriptions
-DeFi continued
+* Anchor review
+* NFTs introduction
+* Inscriptions
+* DeFi continued
 
 #### Lesson 13
-Token 2022 Program
-Interoperability / L2 solutions
-Confidential Tokens
-Security
+* Token 2022 Program
+* Interoperability / L2 solutions
+* Confidential Tokens
+* Security
 
 #### Lesson 14
-Privacy on Solana
-Anchor design examples
-Versioned transactions
-Solidity and other languages
+* Privacy on Solana
+* Anchor design examples
+* Versioned transactions
+* Solidity and other languages
 
 #### Lesson 15
-Compressed NFTs
-Debugging Solana Programs
-Pyth Oracle Network
-Eclipse
-Anchor
-PDA and CPI
-Further examples
-Anchor v 0.30.0
-Identity Solutions
-MEV
-Commitment Levels in Transactions
+* Compressed NFTs
+* Debugging Solana Programs
+* Pyth Oracle Network
+* Eclipse
+* Anchor
+1. PDA and CPI
+2. Further examples
+* Anchor v 0.30.0
+* Identity Solutions
+* MEV
+* Commitment Levels in Transactions
 
 #### Lesson 16
-Wallets
-Airdrops
-Optimisation tips
-Network Congestion
-Solana Resources
-Solana Community
-Course Review
-Next Steps
+* Wallets
+* Airdrops
+* Optimisation tips
+* Network Congestion
+* Solana Resources
+* Solana Community
+* Course Review
+* Next Steps
