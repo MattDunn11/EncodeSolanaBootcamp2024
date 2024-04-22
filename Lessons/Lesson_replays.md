@@ -80,11 +80,11 @@ https://youtu.be/dPK4K4zhqhs
 ### Course Review
 
 #### Lesson 1
-*Decentralised Systems
-*Blockchain theory
-*Cryptography
-*Solana Architecture
-*Consensus
+* Decentralised Systems
+* Blockchain theory
+* Cryptography
+* Solana Architecture
+* Consensus
 
 #### Lesson 2
 Solana Components and History
