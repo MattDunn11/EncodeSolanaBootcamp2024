@@ -157,8 +157,8 @@ Lesson 6
 * Pyth Oracle Network
 * Eclipse
 * Anchor
-1. PDA and CPI
-2. Further examples
+    *  PDA and CPI
+    *  Further examples
 * Anchor v 0.30.0
 * Identity Solutions
 * MEV
