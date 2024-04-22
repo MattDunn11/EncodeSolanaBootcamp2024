@@ -1,4 +1,3 @@
-<html>
 
 # [Encode BootCamp](https://encodeclub.notion.site/aebb64ae7c7245f2a2cfd98da7dddfcf?v=328ebe0ce5754f2791eb8be1f19a9586)
 
@@ -76,15 +75,9 @@ https://youtu.be/dPK4K4zhqhs
 
 
 
-
-
-
 ### Course Review
 
-<font color="purple">Lesson 1</font>
-
-
-
+#### Lesson 1
 * Decentralised Systems
 * Blockchain theory
 * Cryptography
@@ -115,7 +108,7 @@ Lesson 6
 * DeFi on Solana
 * Tokens on Solana
 
-#### #### Lesson 7
+#### Lesson 7
 * Solana Programs continued
 * PDAs
 
@@ -178,5 +171,3 @@ Lesson 6
 * Solana Community
 * Course Review
 * Next Steps
-
-</html>
