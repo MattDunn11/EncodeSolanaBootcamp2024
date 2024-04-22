@@ -41,7 +41,7 @@ https://youtu.be/nfwm5n9Q0z4
 ## Week4
 
 ### Week 4 - Class 1
-
+https://youtu.be/QurngaBjmMI
 ### Week 4 - Class 2
 
 ### Week 4 - Class 3
