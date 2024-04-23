@@ -12,6 +12,8 @@ Steps to create an Account on Codigo Studio - https://comics-flash-0kc.craft.me/
 
 Implementing the methods - https://docs.codigo.ai/guides/lender/#implementing-the-methods
 
+Generate Code - https://docs.codigo.ai/guides/lender/#generate-code
+
 - Comes with Anchor and Solana preinstalled
 - Unlocking the Future with Código
 - Blockchain Development
