@@ -36,3 +36,5 @@ Implement add_capital_to_broker - https://docs.codigo.ai/guides/lender/#implemen
 Implement request_loan - https://docs.codigo.ai/guides/lender/#implement-request_loan
 
 Implement approve_loan - https://docs.codigo.ai/guides/lender/#implement-approve_loan
+
+Implement pay_loan - https://docs.codigo.ai/guides/lender/#implement-pay_loan
