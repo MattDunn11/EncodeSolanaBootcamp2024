@@ -7,6 +7,7 @@
 Codigo https://codigo.ai/
 
 Find Guide here - https://docs.codigo.ai/guides/lender/
+
 Steps to create an Account on Codigo Studio - https://comics-flash-0kc.craft.me/zc1eNgBRsc5jmX
 
 - Comes with Anchor and Solana preinstalled
