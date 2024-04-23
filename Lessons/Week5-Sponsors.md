@@ -31,3 +31,8 @@ Implement the Business Logic - https://docs.codigo.ai/guides/lender/#implement-t
 
 Implement create_broker - https://docs.codigo.ai/guides/lender/#implement-create_broker
 
+Implement add_capital_to_broker - https://docs.codigo.ai/guides/lender/#implement-add_capital_to_broker
+
+Implement request_loan - https://docs.codigo.ai/guides/lender/#implement-request_loan
+
+Implement approve_loan - https://docs.codigo.ai/guides/lender/#implement-approve_loan
