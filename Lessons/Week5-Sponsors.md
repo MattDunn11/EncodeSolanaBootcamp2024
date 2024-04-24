@@ -38,3 +38,28 @@ Implement request_loan - https://docs.codigo.ai/guides/lender/#implement-request
 Implement approve_loan - https://docs.codigo.ai/guides/lender/#implement-approve_loan
 
 Implement pay_loan - https://docs.codigo.ai/guides/lender/#implement-pay_loan
+
+Integrate Client Library - https://docs.codigo.ai/guides/lender/#integrate-the-client-library
+
+https://docs.codigo.ai/learning-the-basics/data-types
+
+Join our Discord - https://discord.gg/UkxMpfecAh
+
+#### Day 3
+Phantom Wallet
+
+Guides for setting up your Phantom wallet and all the things you can do with it
+
+https://phantom.app/learn/guides
+
+How to debug your dapp on iPhone using Phantom
+
+https://www.loom.com/share/1b1817d84af649c9a38e5dbd8ed25ca9?t=0
+
+Deeplinks
+
+https://docs.phantom.app/phantom-deeplinks/deeplinks-ios-and-android
+
+Phantom Jobs
+
+https://phantom.app/jobs
