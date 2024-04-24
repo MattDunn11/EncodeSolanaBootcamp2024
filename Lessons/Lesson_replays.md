@@ -84,6 +84,7 @@ https://www.youtube.com/watch?v=dPK4K4zhqhs
 https://youtu.be/cYlI11duEuY
 
 ### Week 5 - Class 2
+https://youtu.be/hhgKVoZc4EQ
 
 ### Week 5 - Class 3
 
