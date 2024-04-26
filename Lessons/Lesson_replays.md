@@ -107,6 +107,7 @@ Lesson 6
 * DeFi Introduction
 * DeFi on Solana
 * Tokens on Solana
+* Token Creation
 
 #### Lesson 7
 * Solana Programs continued
