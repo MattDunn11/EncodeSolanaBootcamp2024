@@ -6,57 +6,85 @@
 ## Week 1
 
 ### Week 1 - Class 1
+Introduction to Blockchain and Solana
 https://youtu.be/ixWmCB2Igkk
+
 ### Week 1 - Class 2
+Solana Architecture / Rust 
 https://youtu.be/bSEivS3yiBM
+
 ### Week 1 - Class 3
+Solana Command Line Tools / Rust 
 https://youtu.be/MZJ1iXD48Qk
+
 ### Week 1 - Class 4
+Rust continued / Solana Command Line
 https://youtu.be/c8QklKua6-Y
 
 
 ## Week 2
 
 ### Week 2 - Class 1
+Solana Accounts and Development
 https://youtu.be/cbEyYIubaHI
+
 ### Week 2 - Class 2
+Rust/DeFi cont.
 https://youtu.be/E8k7ZSABy_k
+
 ### Week 2 - Class 3
+Further Aspects of Solana Programs
 https://youtu.be/kjN7B7jJaTc
+
 ### Week 2 - Class 4
+Solana Programs, cont.
 https://youtu.be/-nhcIL5Nu_s
 
 
 ## Week 3
 
 ### Week 3 - Class 1
+Cross Program Invocation / Anchor 
 https://youtu.be/xhH0WwgIvM8
+
 ### Week 3 - Class 2
+Web3 Introduction 
 https://youtu.be/HkNf3GEFkXI
+
 ### Week 3 - Class 3
+SPL / Solana Pay
 https://youtu.be/3sULHpdYo_4
+
 ### Week 3 - Class 4
+Anchor review/NFTs intro/Inscriptions/DeFi cont.
 https://youtu.be/nfwm5n9Q0z4
 
 
 ## Week4
 
 ### Week 4 - Class 1
+DeFi Continued / Security 
 https://youtu.be/QurngaBjmMI
+
 ### Week 4 - Class 2
+Privacy / Anchor / Versioned txns / Solidity
 https://www.youtube.com/watch?v=p_JbyYybkY4
 
 ### Week 4 - Class 3
+Oracles, DeFi and MEV
 https://youtu.be/dPK4K4zhqhs
 
 ### Week 4 - Class 4
-
+Final Topics and Course Review
+https://www.youtube.com/watch?v=dPK4K4zhqhs
 
 ## Week 5
 
 ### Week 5 - Class 1
+https://youtu.be/cYlI11duEuY
 
 ### Week 5 - Class 2
+https://youtu.be/hhgKVoZc4EQ
 
 ### Week 5 - Class 3
 
