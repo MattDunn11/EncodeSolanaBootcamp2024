@@ -81,25 +81,25 @@ https://www.youtube.com/watch?v=dPK4K4zhqhs
 ## Week 5
 
 ### Week 5 - Class 1
+Shyft.to Sponsor
 https://youtu.be/cYlI11duEuY
 
 ### Week 5 - Class 2
+Codigo Sponsor
 https://youtu.be/hhgKVoZc4EQ
 
 ### Week 5 - Class 3
+Phantom Sponsor
+https://youtu.be/ymAocJB0bk8
 
 ### Week 5 - Class 4
-
+Web3Auth Sponsor
+https://youtu.be/KtB6jGqnBgM
 
 ## Week 6
+Final Project Week 
 
-### Week 6 - Class 1
 
-### Week 6 - Class 2
-
-### Week 6 - Class 3
-
-### Week 6 - Class 4
 
 
 
@@ -130,7 +130,7 @@ https://youtu.be/hhgKVoZc4EQ
 * Programming Model
 * Development Tools
 
-Lesson 6
+#### Lesson 6
 * Rust Lifetimes
 * DeFi Introduction
 * DeFi on Solana
