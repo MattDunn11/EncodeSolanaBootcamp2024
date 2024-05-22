@@ -1,5 +1,5 @@
 # EncodeSolanaBootcamp2024
-This is to document my progress through the Encode Solana Bootcamp towards my goal of becoming a competent and capable developer within the Solana Ecosystem.
+This repository is to document my progress through the Encode Solana Bootcamp towards my goal of becoming a competent and capable developer within the Solana Ecosystem.
 
 Completed homeworks will be found in Homeworks directory and will in Markdown format. 
 
