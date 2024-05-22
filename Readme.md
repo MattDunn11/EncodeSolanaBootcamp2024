@@ -9,6 +9,6 @@ Lessons are located in the Lessons directory.
 
 I put a serious amount of effort into this bootcamp to transform myself.
 
-Thank you for taking a look at progress within this bootcamp and for considering me for your team.
+Thank you for taking a look at my progress within this bootcamp and for considering me for your team.
 
 Matt :)
