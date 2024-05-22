@@ -1,1 +1,0 @@
-[Bookmark Stack Exchange discussion](https://solana.stackexchange.com/questions/6412/i-want-to-add-metadata-to-the-solana-token-on-cli)
